@@ -1,1 +1,100 @@
-/* Add CSS styling here */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    border: 5px dotted red;
+    background: lightblue;
+}
+
+header {
+  width: 100%;
+  font-size: 3.0rem;
+  color: seagreen;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-bottom: 1.4rem;
+}
+
+section h1 {
+  width: 100%;
+  color: seagreen;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 1.4rem;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  border-radius: 30px;
+  background: seagreen;
+}
+
+nav a:hover {
+  background-color: floralwhite;
+  color: seagreen;
+}
+
+h3 {
+  width: 100%;
+  color: seagreen;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 1.4rem;
+}
+
+section .bio p  {
+  font-size: 1rem;
+}
+
+img  {
+    display: flex;
+    width: 20%;
+    height: 20%;
+  }
+
+.heading {
+    display: flex;
+    max-width: 100%;
+    justify-content: center; 
+    
+}
+
+.firstImage {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+
+}
+
+.secondImage {
+    display: flex;
+    align-items: row;
+    width: 100%;
+}
+
+.thirdImage {
+    display: flex;
+    align-items: row;
+    width: 100%;
+}
+
+.fourthImage {
+    display: flex;
+    align-items: row;
+    width: 100%;
+}
+
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+
